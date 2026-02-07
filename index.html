@@ -3,400 +3,250 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>India’s Expanding Role in the Global Energy Transition | VYQON Research</title>
-  <meta name="description" content="VYQON Research snapshot of PIB release: India’s expanding role in the global energy transition—key highlights, what it means, and the way forward." />
-  <meta name="robots" content="index,follow" />
 
-  <!-- Open Graph (LinkedIn uses these) -->
+  <title>India’s Expanding Role in the Global Energy Transition | VYQON Research</title>
+
+  <meta name="description" content="VYQON Research snapshot of PIB release: India’s expanding role in the global energy transition." />
+
+  <!-- Open Graph / LinkedIn -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="India’s Expanding Role in the Global Energy Transition" />
-  <meta property="og:description" content="Key highlights from the PIB release and VYQON’s perspective—energy security, infrastructure, and clean pathways." />
-  <meta property="og:url" content="https://YOUR-DOMAIN/energy-transition-india.html" />
-  <meta property="og:image" content="https://YOUR-DOMAIN/assets/vyqon-og-1200x627.png" />
+  <meta property="og:description" content="Key highlights from PIB and VYQON Research perspective on India’s energy transition." />
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/YOUR-REPO/" />
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/YOUR-REPO/vyqon-og-1200x627.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="627" />
 
-  <!-- Twitter (optional but nice) -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="India’s Expanding Role in the Global Energy Transition" />
-  <meta name="twitter:description" content="VYQON Research snapshot of PIB release—highlights + implications." />
-  <meta name="twitter:image" content="https://YOUR-DOMAIN/assets/vyqon-og-1200x627.png" />
-
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%230B3D2E' d='M32 4l24 14v28L32 60 8 46V18z'/%3E%3Cpath fill='%23FFFFFF' d='M19 24h26v4H19zm0 10h26v4H19zm0 10h18v4H19z'/%3E%3C/svg%3E" />
-
   <style>
-    :root{
-      --vyqon-forest:#0B3D2E;
-      --vyqon-mint:#22C55E;
-      --vyqon-sky:#0EA5E9;
-      --ink:#0F172A;
+    :root {
+      --green:#0B3D2E;
+      --light:#F6FAF8;
+      --dark:#0F172A;
       --muted:#475569;
-      --bg:#F6FAF8;
-      --card:#FFFFFF;
-      --line:#E2E8F0;
-      --shadow: 0 10px 28px rgba(2, 6, 23, .08);
-      --radius: 18px;
-      --max: 1080px;
+      --border:#E2E8F0;
     }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-      color:var(--ink);
-      background:
-        radial-gradient(1200px 600px at 20% -10%, rgba(34,197,94,.18), transparent 55%),
-        radial-gradient(900px 500px at 90% 0%, rgba(14,165,233,.16), transparent 55%),
-        linear-gradient(180deg, #ffffff 0%, var(--bg) 42%, #ffffff 100%);
-      line-height:1.55;
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: linear-gradient(180deg, #ffffff, var(--light));
+      color: var(--dark);
+      line-height: 1.6;
     }
-    a{color:inherit}
-    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
-    .topbar{
-      position:sticky; top:0; z-index:10;
-      backdrop-filter:saturate(150%) blur(10px);
-      background:rgba(255,255,255,.72);
-      border-bottom:1px solid rgba(226,232,240,.7);
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      max-width: 1080px;
+      margin: auto;
+      padding: 24px;
     }
-    .topbar-inner{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 24px; max-width:var(--max); margin:0 auto}
-    .brand{display:flex; align-items:center; gap:12px; text-decoration:none}
-    .logo{
-      width:38px; height:38px; border-radius:12px;
-      background: linear-gradient(135deg, var(--vyqon-forest), #0A6A4E);
-      display:grid; place-items:center;
-      box-shadow: 0 10px 18px rgba(11,61,46,.25);
+
+    header {
+      background: rgba(255,255,255,0.9);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
     }
-    .logo svg{width:22px; height:22px}
-    .brand h1{font-size:15px; margin:0}
-    .brand small{display:block; color:var(--muted); font-size:12px; margin-top:1px}
-    .nav-actions{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end}
-    .btn{
-      border:1px solid var(--line);
-      background:rgba(255,255,255,.9);
-      padding:10px 12px;
-      border-radius:12px;
-      text-decoration:none;
-      font-weight:600;
-      font-size:13px;
-      display:inline-flex; align-items:center; gap:8px;
-      transition:.15s transform ease, .15s background ease, .15s border-color ease;
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      max-width: 1080px;
+      margin: auto;
+      padding: 16px 24px;
     }
-    .btn:hover{transform:translateY(-1px); border-color:#cbd5e1}
-    .btn.primary{
-      border-color: transparent;
-      background: linear-gradient(135deg, var(--vyqon-forest), #0A6A4E);
-      color:white;
+
+    .brand {
+      display: flex;
+      gap: 12px;
+      align-items: center;
     }
-    .btn.primary:hover{transform:translateY(-1px)}
-    .hero{padding:26px 0 8px}
-    .grid{
-      display:grid;
-      grid-template-columns: 1.3fr .7fr;
-      gap:18px;
-      align-items:stretch;
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--green), #0a6a4e);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: bold;
     }
-    @media (max-width: 900px){
-      .grid{grid-template-columns:1fr}
-      .nav-actions{justify-content:flex-start}
+
+    .brand h1 {
+      margin: 0;
+      font-size: 16px;
     }
-    .card{
-      background:var(--card);
-      border:1px solid rgba(226,232,240,.9);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      overflow:hidden;
+
+    .brand small {
+      color: var(--muted);
+      font-size: 12px;
     }
-    .card-pad{padding:18px}
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      background:rgba(34,197,94,.10);
-      border:1px solid rgba(34,197,94,.22);
-      color:var(--vyqon-forest);
-      padding:7px 10px;
-      border-radius:999px;
-      font-weight:700;
-      font-size:12px;
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
     }
-    .title{margin:12px 0 8px; font-size:34px; line-height:1.12}
-    @media (max-width: 520px){ .title{font-size:28px} }
-    .subtitle{margin:0; color:var(--muted); font-size:15px}
-    .meta{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
-    .tag{
-      background:#F1F5F9;
-      border:1px solid #E2E8F0;
-      color:#0f172a;
-      padding:6px 10px;
-      border-radius:999px;
-      font-size:12px;
-      font-weight:700;
+
+    .btn {
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      font-weight: 600;
+      font-size: 13px;
+      background: #fff;
+      cursor: pointer;
     }
-    .kpis{display:grid; grid-template-columns:1fr; gap:12px}
-    .kpi{
-      border:1px solid rgba(226,232,240,.95);
-      border-radius:16px;
-      padding:14px;
-      background: linear-gradient(180deg, rgba(34,197,94,.08), rgba(255,255,255,0));
+
+    .btn.primary {
+      background: var(--green);
+      color: #fff;
+      border-color: var(--green);
     }
-    .kpi b{font-size:18px}
-    .kpi span{display:block; color:var(--muted); font-size:12px; margin-top:2px}
-    .section{padding:12px 0 24px}
-    .section h2{margin:0 0 10px; font-size:18px}
-    .two{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:18px;
+
+    .hero {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 1.4fr 0.6fr;
+      gap: 20px;
     }
-    @media (max-width: 900px){ .two{grid-template-columns:1fr} }
-    ul.clean{margin:10px 0 0; padding-left:18px}
-    ul.clean li{margin:8px 0; color:var(--ink)}
-    .note{color:var(--muted); font-size:13px}
-    .callout{
-      border-left:5px solid var(--vyqon-mint);
-      background:rgba(34,197,94,.08);
-      padding:14px 14px 14px 14px;
-      border-radius:14px;
-      border:1px solid rgba(34,197,94,.20);
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
     }
-    .footer{
-      border-top:1px solid rgba(226,232,240,.9);
-      padding:24px 0 36px;
-      color:var(--muted);
-      font-size:13px;
+
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
     }
-    .footer strong{color:var(--ink)}
-    .icons{display:inline-flex; gap:8px}
-    .icon{
-      width:18px; height:18px; display:inline-block; vertical-align:-3px;
-      color:currentColor;
+
+    .pill {
+      display: inline-block;
+      background: rgba(34,197,94,.12);
+      color: var(--green);
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
     }
-    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0}
-    .copytoast{
-      position:fixed; left:50%; bottom:18px; transform:translateX(-50%);
-      background:#0f172a; color:white; padding:10px 12px; border-radius:999px;
-      font-size:13px; opacity:0; pointer-events:none; transition:.2s opacity ease;
-      box-shadow:0 10px 30px rgba(2,6,23,.3);
+
+    h2 {
+      margin: 14px 0 10px;
+      font-size: 32px;
+      line-height: 1.2;
     }
-    .copytoast.show{opacity:1}
-    .small-link{color:var(--vyqon-forest); font-weight:700; text-decoration:none}
-    .small-link:hover{text-decoration:underline}
-    .divider{height:1px; background:rgba(226,232,240,.9); margin:14px 0}
+
+    p.subtitle {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+    }
   </style>
 </head>
 
 <body>
-  <header class="topbar" role="banner">
-    <div class="topbar-inner">
-      <a class="brand" href="#" aria-label="VYQON Research">
-        <div class="logo" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path d="M12 2l8.5 5v10L12 22 3.5 17V7L12 2z" fill="rgba(255,255,255,.92)"/>
-            <path d="M7.2 9.2h9.6v1.6H7.2V9.2zm0 4h9.6v1.6H7.2v-1.6z" fill="rgba(11,61,46,.85)"/>
-          </svg>
-        </div>
-        <div>
-          <h1>VYQON Research Pvt. Ltd.</h1>
-          <small>Energy • Climate • Sustainability Advisory</small>
-        </div>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <div class="logo">V</div>
+      <div>
+        <h1>VYQON Research Pvt. Ltd.</h1>
+        <small>Energy • Climate • Sustainability</small>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a class="btn primary"
+         href="mailto:vyqon18@gmail.com?subject=Energy%20Transition%20Insights&body=Hello%20VYQON%20Team,%0A%0AI%20would%20like%20to%20connect%20regarding%20your%20energy%20transition%20research.%0A%0ARegards,">
+        Email VYQON
       </a>
 
-      <nav class="nav-actions" aria-label="Actions">
-        <a class="btn" id="copyLinkBtn" href="javascript:void(0)">
-          <span class="icons" aria-hidden="true">
-            <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M9 9h10v10H9V9z" stroke="currentColor" stroke-width="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" stroke="currentColor" stroke-width="2"/></svg>
-          </span>
-          Copy page link
-        </a>
-        <a class="btn" id="shareLinkedInBtn" target="_blank" rel="noopener">
-          <span class="icons" aria-hidden="true">
-            <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 4h4v16H4V4zm2 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM10 9h4v2h.1c.6-1.1 1.9-2.3 4-2.3 4.2 0 5 2.7 5 6.2V20h-4v-4.6c0-1.1 0-2.6-1.7-2.6-1.7 0-2 1.3-2 2.5V20h-4V9z" fill="currentColor"/></svg>
-          </span>
-          Share on LinkedIn
-        </a>
-        <a class="btn primary" href="#contact">
-          <span class="icons" aria-hidden="true">
-            <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 6h16v12H4V6zm0 0l8 7 8-7" stroke="currentColor" stroke-width="2"/></svg>
-          </span>
-          Work with VYQON
-        </a>
-      </nav>
+      <a class="btn"
+         href="https://www.linkedin.com/company/vyqon-research-private-limited/"
+         target="_blank" rel="noopener">
+        Visit LinkedIn page
+      </a>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="wrap" role="main">
-    <section class="hero">
-      <div class="grid">
-        <article class="card">
-          <div class="card-pad">
-            <div class="pill">
-              <span aria-hidden="true">⚡</span>
-              Policy & Market Snapshot
-            </div>
+<main class="container">
 
-            <h2 class="title">India’s Expanding Role in the Global Energy Transition</h2>
-            <p class="subtitle">
-              A quick, shareable summary of the PIB update—what’s changing across energy access, infrastructure, and cleaner pathways, and why it matters for industry.
-            </p>
+  <section class="hero">
+    <div class="card">
+      <span class="pill">Policy Snapshot</span>
 
-            <div class="meta" aria-label="Topics">
-              <span class="tag">Energy Security</span>
-              <span class="tag">Infrastructure</span>
-              <span class="tag">Biofuels</span>
-              <span class="tag">Mobility</span>
-              <span class="tag">Policy Signals</span>
-            </div>
+      <h2>India’s Expanding Role in the Global Energy Transition</h2>
 
-            <div class="divider"></div>
+      <p class="subtitle">
+        A concise overview of the latest PIB release highlighting India’s
+        progress in energy access, infrastructure expansion, and clean energy pathways.
+      </p>
 
-            <p class="note">
-              Source: Press Information Bureau (PIB) release (PRID: 2219208).
-              <a class="small-link" href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219208&reg=3&lang=1" target="_blank" rel="noopener">Read the original PIB note</a>.
-            </p>
-          </div>
-        </article>
+      <ul>
+        <li>Rapid expansion of gas pipelines and city gas distribution</li>
+        <li>Ethanol blending nearing the 20% national target</li>
+        <li>Large-scale clean cooking fuel adoption</li>
+        <li>India Energy Week strengthening global collaboration</li>
+      </ul>
 
-        <aside class="card" aria-label="Highlights">
-          <div class="card-pad">
-            <h2 style="margin:0 0 10px; font-size:16px;">Headline highlights</h2>
-            <div class="kpis">
-              <div class="kpi">
-                <b>Gas grid & CGD scale-up</b>
-                <span>Rapid expansion of pipelines and city gas distribution coverage</span>
-              </div>
-              <div class="kpi">
-                <b>Ethanol blending nearing 20%</b>
-                <span>Supports emissions reduction and import substitution</span>
-              </div>
-              <div class="kpi">
-                <b>Clean cooking access</b>
-                <span>Large-scale LPG adoption programs deepening energy access</span>
-              </div>
-              <div class="kpi">
-                <b>India Energy Week momentum</b>
-                <span>Global convening to accelerate investment and collaboration</span>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
+      <p class="subtitle">
+        Source:
+        <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219208&reg=3&lang=1"
+           target="_blank" style="color:#0B3D2E;font-weight:600;">
+          Press Information Bureau (PIB)
+        </a>
+      </p>
+    </div>
 
-    <section class="section">
-      <div class="two">
-        <div class="card">
-          <div class="card-pad">
-            <h2>What the update signals</h2>
-            <ul class="clean">
-              <li><b>Transition at scale:</b> parallel push on infrastructure build-out and cleaner fuels.</li>
-              <li><b>Demand-side adoption:</b> stronger uptake of cleaner cooking and cleaner mobility options.</li>
-              <li><b>Policy certainty:</b> reforms and frameworks that improve investability and execution.</li>
-              <li><b>Collaboration:</b> global forums and partnerships to drive technology + finance.</li>
-            </ul>
-            <p class="note" style="margin-top:12px">
-              Use this page as a shareable “landing” link in LinkedIn posts, newsletters, or stakeholder updates.
-            </p>
-          </div>
-        </div>
+    <div class="card">
+      <h3>VYQON Perspective</h3>
+      <p class="subtitle">
+        India’s energy transition is moving from policy intent to execution at scale.
+        The opportunity lies in aligning projects with infrastructure readiness,
+        regulatory clarity, and investment pathways.
+      </p>
 
-        <div class="card">
-          <div class="card-pad">
-            <h2>VYQON lens</h2>
-            <div class="callout">
-              <p style="margin:0">
-                For developers, OEMs, utilities, and investors, the key opportunity is <b>alignment</b>—matching projects with
-                (1) the right policy pathway, (2) grid & fuel infrastructure readiness, and (3) bankable execution plans.
-              </p>
-            </div>
+      <ul>
+        <li>Policy & regulatory advisory</li>
+        <li>Market intelligence & feasibility</li>
+        <li>Investor & stakeholder communication</li>
+      </ul>
+    </div>
+  </section>
 
-            <ul class="clean">
-              <li><b>Project feasibility:</b> demand mapping, site screening, and techno-economic modeling.</li>
-              <li><b>Regulatory diligence:</b> policy impact and compliance pathways.</li>
-              <li><b>Market intelligence:</b> competitor benchmarking and adoption signals.</li>
-              <li><b>Stakeholder narratives:</b> investor-ready briefs and communication assets.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+</main>
 
-    <section class="section">
-      <div class="card">
-        <div class="card-pad">
-          <h2>Key takeaways (share-friendly)</h2>
-          <ul class="clean">
-            <li>India is strengthening <b>energy access</b> while enabling lower-carbon alternatives.</li>
-            <li><b>Infrastructure expansion</b> remains the backbone for transition-ready growth.</li>
-            <li><b>Biofuels and blending</b> provide near-term decarbonization and import savings.</li>
-            <li>Convenings like <b>India Energy Week</b> accelerate partnerships and investment visibility.</li>
-          </ul>
+<footer class="container">
+  <strong>VYQON Research Pvt. Ltd.</strong><br/>
+  Advisory, research, and analysis across renewable energy, clean technologies,
+  energy transition, and sustainability.
+</footer>
 
-          <div class="divider"></div>
-
-          <p class="note" id="contact">
-            <strong>Want a tailored memo for your sector?</strong> We can convert this into a 1–2 page investor brief,
-            dashboard, or a board-ready slide.
-          </p>
-
-          <!-- Update these links -->
-          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px">
-            <a class="btn primary" href="mailto:contact@vyqonresearch.com?subject=Energy%20Transition%20Brief%20Request&body=Hello%20VYQON%20Team%2C%0A%0AI%E2%80%99d%20like%20a%20tailored%20brief%20on%20the%20PIB%20update%20(PRID%202219208).%0A%0AIndustry%3A%20%0ATopic%20focus%3A%20%0ATimeline%3A%20%0A%0AThanks." >
-              Email VYQON
-            </a>
-            <a class="btn" href="https://www.linkedin.com/company/YOUR-LINKEDIN-PAGE" target="_blank" rel="noopener">
-              Visit LinkedIn page
-            </a>
-            <a class="btn" href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219208&reg=3&lang=1" target="_blank" rel="noopener">
-              Open PIB source
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="wrap" style="padding:0">
-        <div style="display:flex; gap:18px; flex-wrap:wrap; justify-content:space-between; align-items:flex-start">
-          <div>
-            <strong>VYQON Research Pvt. Ltd.</strong><br />
-            Advisory • Research • Analysis across renewable energy, clean tech, storage, hydrogen, e-mobility & sustainability.
-          </div>
-          <div>
-            <strong>Disclaimer</strong><br />
-            This page is a curated summary for communication purposes. Please refer to the original PIB release for official wording.
-          </div>
-        </div>
-      </div>
-    </footer>
-  </main>
-
-  <div class="copytoast" id="toast" role="status" aria-live="polite">Link copied</div>
-
-  <script>
-    // LinkedIn share uses the page URL. Make sure you host this page publicly.
-    const pageUrl = window.location.href.split("#")[0];
-    const linkedInShare = "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(pageUrl);
-
-    const shareBtn = document.getElementById("shareLinkedInBtn");
-    shareBtn.href = linkedInShare;
-
-    // Copy link
-    const toast = document.getElementById("toast");
-    document.getElementById("copyLinkBtn").addEventListener("click", async () => {
-      try {
-        await navigator.clipboard.writeText(pageUrl);
-        toast.classList.add("show");
-        setTimeout(() => toast.classList.remove("show"), 1400);
-      } catch (e) {
-        // fallback
-        const tmp = document.createElement("textarea");
-        tmp.value = pageUrl;
-        document.body.appendChild(tmp);
-        tmp.select();
-        document.execCommand("copy");
-        tmp.remove();
-        toast.classList.add("show");
-        setTimeout(() => toast.classList.remove("show"), 1400);
-      }
-    });
-  </script>
 </body>
 </html>
